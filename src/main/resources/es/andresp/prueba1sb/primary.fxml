@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.andresp.prueba1sb.PrimaryController">
+   <children>
+      <TableView fx:id="tableviewJugadores" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <columns>
+          <TableColumn fx:id="columnaNombre" prefWidth="90.0" text="Nombre" />
+          <TableColumn fx:id="columnaApellido" prefWidth="90.0" text="Apellidos" />
+            <TableColumn fx:id="columnaNacionalidad" prefWidth="90.0" text="Nacionalidad" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
